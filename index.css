@@ -9,13 +9,6 @@ h2 {
     font-weight: 700;
 }
 
-img {
-    width: 30px;
-    height: 30px;
-    margin-left: 5px;
-    color: white;
-}
-
 a {
     text-decoration: none;
     color: rgb(91, 94, 94);
@@ -39,12 +32,52 @@ main {
     align-items: center;
 }
 
-#left input {
+.input-left {
     height: 30px;
     border-radius: 15px;
     padding-left: 10px;
     border: 1px solid #8ebae6;
     box-shadow: 2px 2px 10px rgb(100, 170, 228);
+}
+
+.input-left:focus{
+    box-shadow: 2px 2px 20px rgb(1, 136, 247);
+}
+
+#submit {
+    background-color: transparent;
+    font-weight: 600;
+    color: beige;
+    border: 1px solid white;
+    height: 35px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#submit:hover {
+    transform: scale(1.2);
+    color: rgb(48, 48, 43);
+    border: 1px solid rgba(8, 8, 8, 0.425);    
+}
+
+#submit:active{
+    transform:scale(1);
+    border: 2px solid rgba(0, 0, 0, 0.253);
+    transition-duration: 1s;
+}
+
+#gender {
+    margin: 5px auto;
+    width : 80px;
+    padding-left: 13px;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    color: black;
+    font-weight: 500;
+    box-shadow: 0px 0px 3px rgba(245, 245, 245, 0.281);
+}
+
+#gender:hover{
+    box-shadow: -1px -1px 9px rgb(245, 245, 245);
 }
 
 #left, #right {
@@ -71,9 +104,7 @@ main {
     margin: 12px 0;
 }
 
-#gender {
-    margin: 5px auto;
-}
+
 
 #right {
     background-color: #10171e;
@@ -92,7 +123,7 @@ main {
     height: 30px;
     border-radius: 15px;
     border: 1px solid rgb(167, 162, 162);
-    box-shadow: 1px 1px 10px rgb(89, 92, 114);
+    box-shadow: 0px 1px 10px rgb(115, 169, 180);
 }
 
 #login {

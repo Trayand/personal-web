@@ -14,19 +14,19 @@
             <!-- <div id="left-div"> -->
                 <form action="home.html" id="left-form">
                         <h2 style="font-size: 40px">Sign up here!</h2>
-                   
-                        <input type="text" name="first-name" id="first-name" placeholder="First Name">
-                        <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                   <br>
+                        <input class="input-left" type="text" name="first-name" id="first-name" placeholder="First Name" required>
+                        <input class="input-left" type="text" name="last-name" id="last-name" placeholder="Last Name" required>
 
-                        <input type="text" name="email" id="email" placeholder="Email@email.com">
-                        <input type="password" name="password" id="password" placeholder="Password" minlength="6" maxlength="12">
+                        <input class="input-left" type="text" name="email" id="email" placeholder="Email@email.com" required>
+                        <input class="input-left" type="password" name="password" id="password" placeholder="Password" minlength="6" maxlength="12" required>
                     
                         <label for="date">Date of Birth :</label>
-                        <input type="date" name="date" id="date">
+                        <input class="input-left" type="date" name="date" id="date" required>
 
                     <section>
                         <label for="gender">Choose your gender :</label>
-                        <select name="gender" id="gender">
+                        <select name="gender" id="gender" required>
                             <option value="male">Male</option>
                             <option value="female">female</option>
                             <option value="other" selected>other</option>
@@ -42,8 +42,8 @@
         <div id="right">
                 <form action="home.html" id="right-form">
                 <h2 style="font-family: 'Courier New', Courier, monospace; font-size: 40px">Kilogram</h2>
-                <input type="text" name="username" id="username" placeholder="Email" style="padding-left: 10px;">
-                <input type="password" name="password" id="password2" placeholder="Password" minlength="6" maxlength="12" style="padding-left: 10px;">
+                <input type="text" name="username" id="username" placeholder="Email" style="padding-left: 10px;" required>
+                <input type="password" name="password" id="password2" placeholder="Password" minlength="6" maxlength="12" style="padding-left: 10px;" required>
                 <br>
                 <input type="submit" value="Login" id="login">
                 <a href="" class="forgot">Forgot password?</a>
