@@ -118,12 +118,16 @@ li img {
 
 .search-area {
     width: 170px;
-    margin-right: 8px;
-    margin-bottom: 9px;
+    margin-left: 10px;
+    margin-bottom: 10px;
     height: 30px;
     padding-left: 12px;
     border-radius: 30px;
     border: 1px solid gainsboro;
+}
+
+.search-area:focus {
+    border: 2px solid rgb(83, 83, 83);
 }
 
 .D {
