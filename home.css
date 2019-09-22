@@ -197,3 +197,22 @@ li img {
     margin: 9px 42px 1px 42px ;
     cursor: pointer;
 }
+
+
+/* media */
+@media (min-width: 0) and (max-width: 1015px) {
+    .C {
+        display: none;
+    }
+}
+
+@media (min-width: 0) and (max-width: 700px) {
+    .A {
+        display: none;
+    }
+
+    .D {
+        position: relative;
+        left : 10px;
+    }
+}
